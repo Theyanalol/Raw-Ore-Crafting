@@ -1,3 +1,5 @@
+**中文** | [English](README_EN.md)
+
 # Raw Ore Crafting · 原矿直合成
 
 > 不用熔炉，粗矿直接在工作台里合成出成品。
