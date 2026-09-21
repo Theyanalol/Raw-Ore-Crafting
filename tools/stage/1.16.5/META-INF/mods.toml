@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+showAsResourcePack=false
+
+[[mods]]
+modId="orecrafting"
+version="1.0.0"
+displayName="Raw Ore Crafting"
+authors="The_yana"
+displayTest="IGNORESERVERONLY"
+description='''
+Craft smeltable ores directly into their smelting result.
+
+This is the Minecraft 1.16.5 build. Raw ore items do not exist before 1.17,
+so the ore blocks are used instead:
+  Iron Ore       -> Iron Ingot
+  Gold Ore       -> Gold Ingot
+  Ancient Debris -> Netherite Scrap
+'''
+
+[[dependencies.orecrafting]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.orecrafting]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
